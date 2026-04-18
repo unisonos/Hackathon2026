@@ -1,33 +1,54 @@
-/* CONTENEDOR PRINCIPAL */
-.chat-container {
-    width: 100%;
-    max-width: 900px;
 
-    min-height: 200px;   /* 👈 pequeño al inicio */
-    max-height: 90vh;    /* 👈 crece hasta este límite */
+.chat-container {
+
+    max-width: 1500px;
+
+    min-height: 200px;   
+    max-height: 90vh;    
 
     margin: auto;
-
+    
     display: flex;
     flex-direction: column;
 
     border: 1px solid #ccc;
     border-radius: 10px;
 
-    overflow-y: auto;
+    overflow: hidden; 
     background-color: #ffffff;
 }
 
+
+
+.chat-header {
+    padding: 12px;
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 1.1rem;
+
+    background-color: brown;
+    color: white;
+
+    border-bottom: 1px solid #ccc;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
 .chat-messages {
+    flex: 1;
+
+    overflow-y: auto; 
     padding: 1rem;
+
     display: flex;
     flex-direction: column;
     gap: 10px;
-
-    min-height: 100px; /* evita que colapse demasiado */
 }
 
-/* MENSAJE GENERAL */
+
 .message {
     max-width: 70%;
     padding: 10px;
@@ -36,23 +57,20 @@
     color: black;
 }
 
-/* USUARIO */
+
 .message.user {
     align-self: flex-end;
     background-color: #d1e7dd;
 }
 
-/* BOT */
+
 .message.bot {
     align-self: flex-start;
     background-color: #f1f1f1;
 }
 
-/* INPUT STICKY */
-.chat-input {
-    position: sticky;
-    bottom: 0;
 
+.chat-input {
     display: flex;
     gap: 5px;
 
@@ -61,9 +79,11 @@
     background-color: #eeeeee;
 }
 
-/* INPUT TEXTO */
+
 .chat-input input {
     flex: 1;
+    min-width: 0;
+
     padding: 12px;
 
     border: none;
@@ -74,7 +94,7 @@
     border-radius: 5px;
 }
 
-/* BOTÓN */
+
 .chat-input button {
     padding: 12px 20px;
     border: none;
@@ -84,11 +104,11 @@
     border-radius: 5px;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
     .chat-container {
         max-width: 100%;
-        height: 100vh;
+        max-height: 100dvh; 
         border-radius: 0;
     }
 

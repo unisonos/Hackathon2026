@@ -4,7 +4,7 @@ import '../styles/Store.css';
 function Store() {
 
     const [messages, setMessages] = useState([
-        { from: 'bot', text: 'Hola 👋 ¿En qué puedo ayudarle?' }
+        { from: 'bot', text: 'Hello 👋 ¿How can I help you?' }
     ]);
 
     const [input, setInput] = useState('');
@@ -27,7 +27,11 @@ function Store() {
     }, [messages]);
 
     return (
-        <div className="chat-container">
+       <div className="chat-container">
+
+            <div className="chat-header">
+                Fraud Detection Assistant
+            </div>
 
             <div className="chat-messages">
                 {messages.map((msg, i) => (
@@ -43,10 +47,10 @@ function Store() {
                     type="text"
                     value={input}
                     onChange={(e) => setInput(e.target.value)}
-                    placeholder="Escriba un mensaje..."
+                    placeholder="Type your message..."
                     onKeyDown={(e) => e.key === 'Enter' && handleSend()}
                 />
-                <button onClick={handleSend}>Enviar</button>
+                <button onClick={handleSend}>Send</button>
             </div>
 
         </div>

@@ -1,0 +1,59 @@
+.terms-and-conditions {
+    padding: 20px;
+    margin: 0 6%;
+    color: brown;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.terms-and-conditions-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.terms-and-conditions-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    .terms-and-conditions-text {
+        grid-template-columns: 1fr;
+    }
+
+    .terms-and-conditions {
+        margin: 0;
+        padding: 10px;
+    }
+}
+
+
+.term-condition-container {
+    background-color: white;
+    color: #222;
+
+    padding: 25px;
+    border-radius: 20px;
+
+    text-align: justify;
+
+    /* 🔥 sombra pro */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.term-condition-container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+
+.terms-and-conditions h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: brown;
+}
