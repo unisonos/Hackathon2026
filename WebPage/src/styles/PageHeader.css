@@ -2,8 +2,8 @@
 
     background-color: blanchedalmond;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center;;
+    justify-content: center;
     padding: 1rem 2rem;
     border-bottom: 2px solid rgb(79, 18, 18);
 
@@ -17,7 +17,6 @@
 
 
 .header-link-container {
-    
     display: flex;
     gap: 60px;
     align-items: center;
@@ -52,6 +51,9 @@
 
 @media screen and (max-width: 720px) {
 
+    .app-header {
+        justify-content: right;
+    }
 
     .header-nav {     
         display: flex;

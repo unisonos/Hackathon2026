@@ -1,7 +1,7 @@
 import '../styles/PageHeader.css';
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import logo from '../assets/store-logo.jpeg'
+// import logo from '../assets/store-logo.jpeg'
 
 
 function PageHeader() {
@@ -32,7 +32,7 @@ function PageHeader() {
 
         <header className='app-header'>
 
-            <Link to='/'><img className='header-image' src={logo}/></Link>
+            {/* <Link to='/'><img className='header-image' src={logo}/></Link> */}
             
 
             <button onClick={() => handleClick()} className='open-header-links'><i className="bi bi-list"></i></button>
