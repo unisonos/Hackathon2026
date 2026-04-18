@@ -1,0 +1,58 @@
+.purchase-guide-wrapper {
+    margin: 0 8%;
+    padding: 20px;
+    color: brown;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.purchase-guide-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.instructions-wrapper {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+
+
+.instruction-block {
+    margin-bottom: 25px;
+    text-align: justify;
+    padding-left: 10px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+
+.instruction-heading {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #5a2d0c; 
+    justify-self: center;
+}
+
+/* .instruction-heading span {
+    text-decoration: underline;
+} */
+
+
+.instruction-text {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+
+@media screen and (max-width: 800px) {
+    .instructions-wrapper {
+        grid-template-columns: 1fr;
+    }
+}

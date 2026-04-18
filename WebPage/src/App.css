@@ -1,0 +1,7 @@
+.app-layout {
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+  row-gap: 35px; /*  Separar el footer, header y el contenido  */
+
+}

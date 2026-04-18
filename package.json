@@ -1,0 +1,19 @@
+{
+  "name": "music-box-store",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "nodemon Backend/index.js",
+    "frontend": "npm run dev --prefix WebPage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "cypress": "^15.7.1",
+    "cypress-file-upload": "^5.0.8",
+    "nodemon": "^3.1.9"
+  }
+}

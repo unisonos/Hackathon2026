@@ -1,0 +1,44 @@
+.frequent-questions {
+    padding: 20px;
+    margin: 0 8%;
+    color: brown;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.questions-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+.questions-section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.question-block {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.question-subtitle {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: white; 
+    background-color: brown;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .questions-container {
+        grid-template-columns: 1fr;
+    }
+
+    .question-subtitle {
+        font-size: 20px;
+    }
+}

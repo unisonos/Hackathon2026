@@ -1,0 +1,97 @@
+.melodies {
+    display: flex;
+    flex-direction: column;
+    /* min-width: 400px; */
+    width: 80%;
+    justify-self: center;
+    margin: auto;
+    
+}
+
+
+.available-songs {
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+    margin: 1rem 0;
+ 
+}
+
+.song-item::before {
+    content: '🎵';
+}
+
+.song-item span{
+    color: rgb(118, 23, 23, 60%);
+    transition: color 0.5s ease;
+    cursor: pointer;
+}
+
+
+.song-name {
+    margin-left: 10px;
+}
+
+
+.song-item span:hover {
+    color: rgb(227, 155, 19, 60%);
+
+}
+
+
+.audio-player-container {
+    max-height: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+
+.audio-player-container-show {
+    max-height: 500px;
+    margin-top: 10px;
+    /* background-color: red; */
+    visibility:visible;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+
+.seeker-container {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+}
+
+
+.seeker-input {
+    flex: 1;
+    min-width: 0;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+    background-color: white;
+    color: gray;
+}
+
+
+.seeker-button {
+    background-color: brown;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.seeker-button:hover {
+    background-color: rgba(0 0 0 / .2);
+}

@@ -1,0 +1,45 @@
+.policies-and-privacy {
+    padding: 20px;
+    margin: 0 8%;
+    color: brown;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.policies-and-privacy-container {
+    display: flex;
+    gap: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .policies-and-privacy-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .policies-and-privacy {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.policies-and-privacy-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.policies-and-privacy-block {
+    margin-bottom: 30px;
+    text-align: justify;
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.policies-and-privacy-subtitle {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #5a2d0c;
+}

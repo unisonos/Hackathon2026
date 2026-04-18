@@ -1,0 +1,49 @@
+.terms-and-conditions {
+    padding: 20px;
+    margin: 0 4%;
+    color: brown;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.terms-and-conditions-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.terms-and-conditions-text {
+    text-align: justify;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+
+.terms-and-conditions h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.term-condition-container {
+    background-color: rgb(126, 59, 59);
+    /* background-color: brown; */
+    color: white;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 1250px) {
+    .terms-and-conditions-text {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .terms-and-conditions-text {
+        grid-template-columns: 1fr;
+    }
+}
+
