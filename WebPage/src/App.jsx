@@ -5,6 +5,7 @@ import PageHeader from './components/PageHeader'
 import PageFooter from './components/PageFooter'
 import TermsAndConditios from './components/TermsAndConditions'
 import PrivacyPolicy from './components/PoliciesAndPrivacy'
+import Stadistics from './components/Stadistics'
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
             <Route path='/' element = {<Store />} />
             <Route path='/terms-and-conditions' element = {<TermsAndConditios />} />
             <Route path='/privacy-policy' element = {<PrivacyPolicy />} />
-
+            <Route path='/secure-metrics' element = {<Stadistics />}/>
           </Routes>
         </main>    
 

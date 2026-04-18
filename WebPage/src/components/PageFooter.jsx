@@ -9,8 +9,8 @@ function PageFooter() {
 
                 <nav className="footer-column">
                     <ul>
-                        <li><Link to='/history-of-music-boxes'>Historia de las cajas musicales</Link></li>
-                        <li><Link to='/frequently-asked-questions'>Preguntas frecuentes</Link></li>
+                        <li><Link to='/terms-and-conditions'>Terms and Conditions</Link></li>
+                        <li><Link to='/privacy-policy'>Privacy Policy</Link></li>
                     </ul>
                 </nav>
 
