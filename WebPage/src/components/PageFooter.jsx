@@ -17,7 +17,7 @@ function PageFooter() {
                 <nav className="footer-column">
                     <ul>
                         <li><Link to='/'>White Web Chatbot</Link></li>
-                        <li><Link to='/secure-metrics'>Security Stadistics</Link></li>
+                        <li><Link to='/secure-metrics'>Security Statistics</Link></li>
                     </ul>
                 </nav>
 

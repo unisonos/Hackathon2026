@@ -43,7 +43,7 @@ function PageHeader() {
 
                 <ul className='header-link-container' onClick={() => {isNavOpened && handleClick()}}>
 
-                    <li><Link className='header-link' to='/secure-metrics'>Security Stadistics</Link></li>
+                    <li><Link className='header-link' to='/secure-metrics'>Security Statistics</Link></li>
                     <li><Link className='header-link' to='/'>White Web Chatbot</Link></li>
                     <li><Link className='header-link' to='/terms-and-conditions'>Terms and Conditions</Link></li>
                     <li><Link className='header-link' to='/privacy-policy'>Privacy Policy</Link></li>
