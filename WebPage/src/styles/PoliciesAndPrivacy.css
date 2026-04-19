@@ -1,7 +1,7 @@
 .policies-and-privacy {
     padding: 20px;
     margin: 0 8%;
-    color: brown;
+    color: #5c3d6e;
     font-size: 1.1em;
     line-height: 1.6;
 }
@@ -35,23 +35,21 @@
     padding: 25px;
     border-radius: 20px;
 
-    color: #222;
+    color: #3a2550;
     text-align: justify;
 
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 8px 25px rgba(92, 61, 110, 0.12);
 
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-
 .policies-and-privacy-block:hover {
     transform: translateY(-3px);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 12px 30px rgba(92, 61, 110, 0.22);
 }
-
 
 .policies-and-privacy-subtitle {
     font-size: 1.4em;
     margin-bottom: 10px;
-    color: brown;
+    color: #9b7aad;
 }

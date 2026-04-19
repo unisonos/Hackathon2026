@@ -1,13 +1,13 @@
-.loader-container { 
+.loader-container {
     display: flex;
     gap: 15px;
     align-items: center;
-    color: brown;
+    color: #5c3d6e;
 }
 
 .loader {
-    border: 8px solid #f3f3f3; 
-    border-top: 8px solid brown; 
+    border: 8px solid #f3ebf8;
+    border-top: 8px solid #5c3d6e;
     border-radius: 50%;
     width: 25px;
     height: 25px;

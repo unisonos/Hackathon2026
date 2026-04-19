@@ -1,15 +1,14 @@
 .app-footer {
-    background-color: rgb(126, 59, 59);
+    background-color: #5c3d6e;
     padding: 2rem 1rem;
 }
 
-
 .footer-container {
     display: flex;
-    justify-content: center;   
+    justify-content: center;
     align-items: center;
-    gap: 60px;                 
-    flex-wrap: wrap;           
+    gap: 60px;
+    flex-wrap: wrap;
 }
 
 .footer-column ul {
@@ -19,22 +18,20 @@
 
     display: flex;
     flex-direction: column;
-    align-items: center;      
-    text-align: center;      
+    align-items: center;
+    text-align: center;
     gap: 10px;
 }
 
-/* links */
 .app-footer a {
     text-decoration: none;
-    color: whitesmoke;
+    color: #f3ebf8;
     transition: color 0.3s ease;
 }
 
 .app-footer a:hover {
-    color: burlywood;
+    color: #d4b8e0;
 }
-
 
 @media (max-width: 700px) {
     .footer-container {

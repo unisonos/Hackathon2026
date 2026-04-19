@@ -1,20 +1,17 @@
 .app-header {
 
-    background-color: whitesmoke;
+    background-color: #fdf8ff;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem 2rem;
-    border-bottom: 2px solid rgb(79, 18, 18);
+    border-bottom: 2px solid #5c3d6e;
     height: 125px;
 }
-  
-  
+
 .header-image {
-    /* width: 9.5rem; */
     margin-right: 25px;
 }
-
 
 .header-link-container {
     display: flex;
@@ -22,32 +19,23 @@
     align-items: center;
     list-style: none;
     padding: 0 15px;
-
 }
- 
- 
+
 .header-link {
     text-decoration: none;
     font-size: 17px;
-    color: black;
+    color: #5c3d6e;
     opacity: 60%;
     transition: opacity 0.5s ease;
 }
- 
- 
+
 .header-link:hover {
     opacity: 90%;
- 
 }
-
-
 
 .open-header-links, .close-header-links {
     display: none;
 }
-
-
-
 
 @media screen and (max-width: 720px) {
 
@@ -55,32 +43,29 @@
         justify-content: right;
     }
 
-    .header-nav {     
+    .header-nav {
         display: flex;
         flex-direction: column;
         align-items: end;
         padding: 1rem 0;
         gap: 2rem;
-        position: fixed; 
+        position: fixed;
         top: 0;
         right: 0;
         bottom: 0;
-        background-color: rgb(126, 59, 59);
+        background-color: #5c3d6e;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0);
         opacity: 0;
         transform: translateX(100%);
         z-index: 5;
     }
 
-
     .header-nav.visible {
         opacity: 1;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
         transform: translateX(0);
         transition: box-shadow 0.5s ease, transform 0.5s ease;
-
     }
-
 
     .header-link-container {
         flex-direction: column;
@@ -88,20 +73,16 @@
         padding: 0 2rem;
         margin: 0;
         gap: 20px;
-
-
     }
-
 
     .open-header-links {
         display: block;
         font-size: 2rem;
-        color: brown;
+        color: #5c3d6e;
         cursor: pointer;
         background: none;
         border: none;
     }
-
 
     .close-header-links {
         display: block;
@@ -114,13 +95,12 @@
     }
 
     .header-link {
-        color: whitesmoke;
+        color: #f3ebf8;
         opacity: 1;
         transition: color 0.5s ease;
     }
 
     .header-link:hover {
-        color: burlywood;
+        color: #d4b8e0;
     }
-
 }
