@@ -16,15 +16,8 @@ function PageFooter() {
 
                 <nav className="footer-column">
                     <ul>
-                        <li><Link to='/who-we-are'>Quiénes somos</Link></li>
-                        <li><Link to='/how-to-create'>Cómo crear una melodía</Link></li>
-                    </ul>
-                </nav>
-
-                <nav className="footer-column">
-                    <ul>
-                        <li><Link to='/terms-and-conditions'>Términos y condiciones</Link></li>
-                        <li><Link to='/policies-and-privacy'>Políticas y privacidad</Link></li>
+                        <li><Link to='/'>White Web Chatbot</Link></li>
+                        <li><Link to='/secure-metrics'>Security Stadistics</Link></li>
                     </ul>
                 </nav>
 
